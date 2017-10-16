@@ -87,46 +87,13 @@
 		<div class="col-md-4 col-lg-3" id="hookDashboardZoneOne">
 			{$hookDashboardZoneOne}
 		</div>
-		<div class="col-md-8 col-lg-7" id="hookDashboardZoneTwo">
+		<div class="col-md-8 col-lg-9" id="hookDashboardZoneTwo">
 			{$hookDashboardZoneTwo}
 			<div id="dashaddons" class="row-margin-bottom">
 				<a href="http://addons.prestashop.com/en/209-dashboards?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">
 					<i class="icon-plus"></i> {l s='Add more dashboard modules' d='Admin.Dashboard.Feature'}
 				</a>
 			</div>
-		</div>
-		<div class="col-md-12 col-lg-2">
-			<section class="dash_news panel">
-				<h3><i class="icon-rss"></i> {l s='PrestaShop News' d='Admin.Dashboard.Feature'}</h3>
-				<div class="dash_news_content"></div>
-				<div class="text-center"><h4><a href="http://www.prestashop.com/blog/" onclick="return !window.open(this.href);">{l s='Find more news' d='Admin.Dashboard.Feature'}</a></h4></div>
-			</section>
-			<section id="dash_version" class="visible-lg">
-				<iframe style="overflow:hidden;border:none" src="{$new_version_url|escape:'html':'UTF-8'}" ></iframe>
-			</section>
-			<section class="dash_links panel">
-				<h3><i class="icon-link"></i> {l s="Useful links" d='Admin.Dashboard.Feature'}</h3>
-					<dl>
-						<dt><a href="http://doc.prestashop.com/display/PS16?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">{l s="Official Documentation" d='Admin.Dashboard.Feature'}</a></dt>
-						<dd>{l s="User, Developer and Designer Guides" d='Admin.Dashboard.Feature'}</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://www.prestashop.com/forums?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">{l s="PrestaShop Forum" d='Admin.Dashboard.Feature'}</a></dt>
-						<dd>{l s="Connect with the PrestaShop community" d='Admin.Dashboard.Feature'}</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://addons.prestashop.com?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">{l s="PrestaShop Addons" d='Admin.Dashboard.Feature'}</a></dt>
-						<dd>{l s="Enhance your store with templates & modules" d='Admin.Dashboard.Feature'}</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://forge.prestashop.com?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">{l s="The Forge" d='Admin.Dashboard.Feature'}</a></dt>
-						<dd>{l s="Report issues in the Bug Tracker" d='Admin.Dashboard.Feature'}</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://www.prestashop.com/en/contact-us?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="_blank">{l s="Contact Us!" d='Admin.Dashboard.Feature'}</a></dt>
-						<dd></dd>
-					</dl>
-			</section>
 		</div>
 	</div>
 </div>

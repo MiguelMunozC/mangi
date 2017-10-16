@@ -95,4 +95,4 @@
 	</div>
 {/if}
 {$page}
-{$footer}
+
